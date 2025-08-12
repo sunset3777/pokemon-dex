@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #ffcc01, #ffea92);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* 標題 */
+h1 {
+    color: #ff1c1c;
+    text-shadow: 2px 2px #fff;
+    margin-top: 20px;
+}
+
+/* 搜尋框 */
+.search-box {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-box input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ff1c1c;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background-color: #ff1c1c;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.search-box button:hover {
+    background-color: #e60000;
+}
+
+/* Pokémon 卡片 */
+#pokemon-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#pokemon-image {
+    width: 150px;
+    height: 150px;
+}
+
+#pokemon-name {
+    font-size: 24px;
+    color: #333;
+}
+
+#pokemon-id {
+    font-size: 14px;
+    color: gray;
+}
+
+#pokemon-type {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+/* 能力值列表 */
+#pokemon-stats {
+    list-style: none;
+    padding: 0;
+}
+
+#pokemon-stats li {
+    margin: 5px 0;
+    background: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* 錯誤訊息 */
+#error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* 隱藏用 */
+.hidden {
+    display: none;
+}

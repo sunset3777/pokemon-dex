@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon-dex</title>
+</head>
+<body>
+    <h1>Pokémon-dex</h1>
+
+    <div class="search-box">
+        <input type="text" id="pokemon-input"placeholder="輸入名字或編號"/>
+        <button id="search-btn">查詢</button>
+        </div>
+
+    <div id="pokemon-card"class="hidden">
+        <h2 id="pokemon-name"></h2>
+        <p id="pokemon-id"></p>
+        <img id="pokemon-image"src=""alt="pokemon圖片"/>
+        <p id="pokemon-type"></p>
+        <ul id="pokemon-stats"></ul>
+
+    </div>
+    <p id="error-message" class="hidden">找不到該寶可夢，請重新輸入搜尋</p>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
